@@ -1,0 +1,39 @@
+.Top-Section {
+    background-color:#fb4e71;
+    padding:20px;
+}
+
+.Cricker-name {
+    color: #ffffff;
+    font-family: Roboto;
+}
+
+.bottom-container {
+    background-color: #e6f6ff;
+}
+
+.card-box {
+    background-color: white;
+}
+
+.cricker-details {
+    color: #ffffff;
+    font-family: Roboto;
+}
+
+.side-heading {
+    font-family: Roboto;
+    color: #323f4b;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+}
+
+.bottom-images {
+    margin: 10px;
+}
+
+.button-container {
+    text-align: center;
+}
