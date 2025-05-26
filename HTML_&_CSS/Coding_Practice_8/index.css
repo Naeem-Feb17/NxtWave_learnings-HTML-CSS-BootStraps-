@@ -1,0 +1,35 @@
+.main {
+    margin-top: 10px;
+}
+
+.movie-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/orange-color-bg.png");
+    background-size: cover;
+    padding: 24px;
+}
+
+.main-heading {
+    color: white;
+}
+
+.button {
+    color: #ff8348;
+    background-color: #ffffff;
+    font-family: "Roboto";
+    border-radius: 8px;
+}
+
+.paragraph {
+    color: white;
+}
+
+.similar-movie-image {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.sub-heading {
+    color: white;
+    font-size: 25px;
+    font-weight: normal;
+}

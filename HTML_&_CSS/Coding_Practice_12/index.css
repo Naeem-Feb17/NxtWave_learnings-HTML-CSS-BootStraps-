@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.Book-Store-home-page {
+    background-color: #1b1b1b;
+    padding: 24px;
+}
+
+.home-page-heading {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 28px;
+}
+
+.popular-book-container {
+    background-color: #66f6ff;
+    border-radius: 8px;
+}
+
+.popular-book-image {
+    width: 126px;
+    height: 180px;
+}
+
+.pouplar-book-short-details-container {
+    padding: 16px;
+}
+
+.pouplar-book-heading {
+    color: #183b56;
+    font-family: "bree Serif";
+    font-size: 16px;
+}
+
+.pouplar-book-text {
+    color: #06070d;
+    font-family: "bree Serif";
+    font-size: 12px;
+}
+
+.pouplar-book-author {
+    color: #183b56;
+    font-family: "bree Serif";
+    font-size: 10px;
+}
+
+.button {
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.Recommended-books-heading {
+    color: #ffffff;
+    font-family: "bree Serif";
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.Recommended-books-container {
+    margin-bottom: 10px;
+}
+
+.Recommended-books-image {
+    width: 80px;
+    height: 125px;
+}
+
+.recommended-book-short-details-container {
+    margin-left: 10px;
+}
+
+.recommended-book-name {
+    color: #ffffff;
+    font-family: "bree Serif";
+    font-size: 16px;
+}
+
+.recommended-book-description {
+    color: #ffffff;
+    font-family: "bree Serif";
+    font-size: 12px;
+}
+
+.book-details-page {
+    background-color: #06070d;
+    padding: 24px;
+    text-align: center;
+}
+
+.book-details-page-image {
+    width: 190px;
+    height: 294px;
+    margin-bottom: 20px;
+}
+
+.book-name {
+    color: #ffffff;
+    font-family: "bree Serif";
+    font-size: 28px;
+}
