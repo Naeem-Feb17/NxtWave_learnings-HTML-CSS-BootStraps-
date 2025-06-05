@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Bree Serif:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+
+/* Background Image for Main Section */
+.bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/static-website/flats-list-bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+/* Card styling for main page */
+.card {
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Headings */
+.main-page-heading {
+    color: #f19116;
+    font-family: "Bree Serif", serif;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* Paragraphs */
+p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Centering button on main page */
+.button {
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* Booking list section background */
+.main-page-list {
+    background-color: #222222;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Each card in booking section */
+.card1 {
+    background-color: white;
+    margin: 20px auto;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    padding: 15px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Images inside flat cards */
+.card1 img {
+    width: 150px;
+    height: auto;
+    border-radius: 12px;
+    margin-right: 15px;
+}
+
+/* Caption inside each flat card */
+.yoga-caption,
+.card1 h1 {
+    font-family: "Bree Serif", serif;
+    font-size: 20px;
+    color: #f19116;
+    margin-bottom: 8px;
+}
+
+/* Description inside each flat card */
+.card1 p {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Back or Contact buttons */
+.button1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.button1 button,
+.button button {
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 20px;
+}
+
+/* Contact page styles */
+#sectionContactPage {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#sectionContactPage h1 {
+    font-family: "Bree Serif", serif;
+    color: #f19116;
+    margin-bottom: 10px;
+}
+
+#sectionContactPage p {
+    font-family: "Roboto", sans-serif;
+    color: #333;
+    margin: 5px 0;
+    font-size: 16px;
+}

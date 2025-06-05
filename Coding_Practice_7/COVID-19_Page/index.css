@@ -1,0 +1,32 @@
+.covid-container {
+    border-width: 5px;
+    border-style: solid;
+    border-color: #0967d219;
+}
+
+.covid-header {
+    margin:15px;
+}
+
+.covid-header-text {
+    color:#323f4b;
+    font-family: roboto;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+button {
+    color: #ffffff;
+    background-color: #0967d2;
+    font-family: "roboto";
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 8px;
+}
+.symtom-text {
+    color: black;
+    font-family: roboto;
+    font-size: 12px;
+    font-weight: 500;
+    margin:5px
+}

@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the heading */
+h1 {
+    color: #333;
+    font-size: 28px;
+}
+
+/* Style paragraphs */
+p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Style images */
+.image {
+    width: 50%;
+    height: 50%;
+    padding: 5px;
+}
+
+/* Style horizontal rule */
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Hide both sections by default */
+#profile,
+#bio {
+  display: none;
+}
+
+/* Show profile by default */
+body:not(:target) #profile {
+  display: flex;
+}
+
+/* Show profile when not targeting bio */
+#profile:target,
+body:not(:target) #profile {
+  display: flex;
+}
+
+/* Show bio only when targeted */
+#bio:target {
+  display: block;
+}
+
+/* Hide profile when bio is targeted */
+#bio:target ~ #profile {
+  display: none;
+}

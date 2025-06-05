@@ -1,0 +1,37 @@
+.bg-color-1 {
+    background-color: #5cb85c;
+    height: 25vh;
+}
+.bg-color-2 {
+    background-color: #5bc0de;
+    height: 50vh;
+}
+.bg-color-3 {
+    background-color: #f0ad4e;
+    height: 75vh;
+}
+.bg-color-4 {
+    background-color: #d9534f;
+    height: 100vh;
+}
+
+.main {
+    color: #ffffff;
+    font-family: "Roboto";
+    margin: 10px;
+    background-color: #d9534f;
+}
+
+.change {
+    padding: 5px;
+}
+
+.button-ready {
+    background-color: #ffd0b5;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #841003;
+    height: 30px;
+    width: 70px;
+    color: #841003;
+}

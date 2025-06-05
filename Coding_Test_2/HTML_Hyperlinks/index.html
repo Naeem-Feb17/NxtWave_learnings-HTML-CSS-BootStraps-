@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Hyperlink</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #bio:target~#profile {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="profile" class="container d-flex flex-row">
+        <img src="https://assets.ccbp.in/frontend/static-website/profile-img.png" alt="Profile Image" width="200"
+            height="200">
+        <div class="d-flex flex-column">
+            <h1>Jenny</h1>
+            <p>software Developer</p>
+            <p>Working in <span><a href="https://www.google.com/">Google</a></span></p>
+            <a href="#bio">
+                <img src="https://assets.ccbp.in/frontend/static-website/bio-img.png" class="image" alt="Bio Image" width="500"
+                    height="200">
+            </a>
+        </div> 
+    </div>
+
+    <div id="bio">
+        <div class="bio-container">
+            <h1>Bio</h1>
+            <p>
+                I am a software developer with a passion for creating innovative solutions. I have experience in various
+                programming languages and frameworks, and I enjoy collaborating with teams to build high-quality
+                software products.
+            </p>
+            <p>
+                In my free time, I love to explore new technologies, contribute to open-source projects, and share my
+                knowledge with the community.
+            </p>
+            <a href="#">Back</a>
+        </div>
+    </div>
+</body>
+
+</html>

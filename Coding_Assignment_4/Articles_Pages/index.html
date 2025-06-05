@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Articles Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        crossorigin="anonymous"></script>
+    <script src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</head>
+
+<body>
+
+    <!-- Section: Home Page -->
+    <div id="sectionmain-page" class="text-white bg-page p-4">
+        <h1 class="text-center mb-2">Empower Yourself</h1>
+        <p class="text-center">By learning new courses from the world's leading experts</p>
+        <div class="experts-bottom-section">
+            <div>
+                <div class="d-flex flex-row justify-content-center">
+                    <div class="card-item" onclick="display('sectionTechnologyPage')">
+                        <img src="https://assets.ccbp.in/frontend/static-website/articles-technology-icon-img.png"
+                            class="card-image" />
+                        <h1 class="card-name">Technology</h1>
+                    </div>
+                    <div class="card-item" onclick="display('sectionSciencePage')">
+                        <img src="https://assets.ccbp.in/frontend/static-website/articles-science-icon-img.png"
+                            class="card-image" />
+                        <h1 class="card-name">Science</h1>
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-content-center">
+                    <div class="card-item" onclick="display('sectionHealthcarePage')">
+                        <img src="https://assets.ccbp.in/frontend/static-website/articles-healthcare-icon-img.png"
+                            class="card-image" />
+                        <h1 class="card-name">Health-care</h1>
+                    </div>
+                    <div class="card-item" onclick="display('sectionBusinessPage')">
+                        <img src="https://assets.ccbp.in/frontend/static-website/articles-business-icon-img.png"
+                            class="card-image" />
+                        <h1 class="card-name">Business</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section: Technology -->
+
+    <!-- Section: Technology -->
+    <div id="sectionTechnologyPage" style="display: none;" class="p-4 bg-page text-white">
+        <div class="carousel slide" id="carouselExampleIndicators">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://assets.ccbp.in/frontend/static-website/articles-technology-c1-img.png"
+                        class="d-block w-100" alt="technology">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://assets.ccbp.in/frontend/static-website/articles-technology-c2-img.png"
+                        class="d-block w-100" alt="technology2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://assets.ccbp.in/frontend/static-website/articles-technology-c3-img.png"
+                        class="d-block w-100" alt="technology3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <h2 class="card-name mt-4">Technology Topics</h2>
+        <ol>
+            <li>Artificial Intelligence</li>
+            <li>Web Development</li>
+            <li>Cybersecurity</li>
+        </ol>
+        <button class="btn btn-warning mt-3" onclick="display('sectionmain-page')">Back</button>
+    </div>
+
+    <!-- Section: Science -->
+    <div id="sectionSciencePage" style="display: none;" class="p-4 bg-page text-white">
+        <h2 class="card-name">Science Topics</h2>
+        <ol>
+            <li>Astronomy</li>
+            <li>Quantum Physics</li>
+            <li>Genetics</li>
+        </ol>
+        <button class="btn btn-warning mt-3" onclick="display('sectionmain-page')">Back</button>
+    </div>
+
+    <!-- Section: Health-care -->
+    <div id="sectionHealthcarePage" style="display: none;" class="p-4 bg-page text-white">
+        <h2 class="card-name">Health-care Topics</h2>
+        <ol>
+            <li>Nutrition</li>
+            <li>Mental Health</li>
+            <li>First Aid</li>
+        </ol>
+        <button class="btn btn-warning mt-3" onclick="display('sectionmain-page')">Back</button>
+    </div>
+
+    <!-- Section: Business -->
+    <div id="sectionBusinessPage" style="display: none;" class="p-4 bg-page text-white">
+        <h2 class="card-name">Business Topics</h2>
+        <ul>
+            <li>Entrepreneurship</li>
+            <li>Marketing Strategies</li>
+            <li>Financial Planning</li>
+        </ul>
+        <button class="btn btn-warning mt-3" onclick="display('sectionmain-page')">Back</button>
+    </div>
+
+</body>
+
+</html>

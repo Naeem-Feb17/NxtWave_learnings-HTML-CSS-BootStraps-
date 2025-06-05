@@ -1,0 +1,25 @@
+.goa-card-container {
+    padding: 5px;
+}
+
+.goa-card-heading {
+    font-size: 30px;
+    color: #323f4b;
+}
+
+.goa-card-description {
+    color: #9445b1;
+    font-family: "roboto";
+    font-size: 14px;
+}
+
+.goa-card-image {
+    margin:4px;
+}
+
+.goa-video-container {
+    width: 96px;
+    height: 96px;
+    border-radius: 8px;
+    margin: 4px;
+}

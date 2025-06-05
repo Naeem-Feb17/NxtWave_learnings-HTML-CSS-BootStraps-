@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+
+
+.leaf-button {
+    background-color: #007854;
+    border-width: 2px;
+    border-color: #0c6b58;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.button-set {
+    background-color: #fab8d9;
+    border-style: dotted;
+    border-width: 4px;
+    border-color: #5c0b33;
+    height: 50px;
+    width: 50px;
+    color: #5c0b33;
+}
+
+.button-go {
+    background-color: white;
+    border-width: 8px;
+    border-color: #007854;
+    border-radius: 50%;
+    border-style: solid;
+    height: 100px;
+    width: 100px;
+}
+
+.button-ready {
+    background-color: #ffd0b5;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #841003;
+    height: 30px;
+    width: 70px;
+    color: #841003;
+}

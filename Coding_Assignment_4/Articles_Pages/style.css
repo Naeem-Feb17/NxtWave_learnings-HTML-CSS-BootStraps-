@@ -1,0 +1,49 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-page {
+    background-color: #225db0;
+    min-height: 100vh;
+}
+
+/* Card styling */
+.card-item {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 12px;
+    text-align: center;
+    width: 150px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.card-item:hover {
+    background-color: #f1f1f1;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.card-image {
+    width: 60px;
+    height: 60px;
+}
+
+.card-name {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+}
+
+/* Ordered list */
+ol {
+    padding-left: 20px;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 16px;
+}
+
+ol li {
+    margin-bottom: 8px;
+}
